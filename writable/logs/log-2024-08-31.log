@@ -1,0 +1,65 @@
+CRITICAL - 2024-08-31 16:46:41 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::modifierLivre(), 0 passed in C:\laragon\www\bibliothèque\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: modifierListe/0000000011]
+in APPPATH\Controllers\Home.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->modifierLivre()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\bibliothèque\\public\\index.php')
+CRITICAL - 2024-08-31 16:47:40 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::modifierLivre(), 0 passed in C:\laragon\www\bibliothèque\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: livre/modifierListe/0000000011]
+in APPPATH\Controllers\Home.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->modifierLivre()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\bibliothèque\\public\\index.php')
+CRITICAL - 2024-08-31 17:09:12 --> ErrorException: Undefined variable $livre
+[Method: GET, Route: livre/edit/0000000011]
+in APPPATH\Views\modifierLivre.php on line 12.
+ 1 APPPATH\Views\modifierLivre.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $livre', 'C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('modifierLivre', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('modifierLivre', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit('0000000011')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\bibliothèque\\public\\index.php')
+CRITICAL - 2024-08-31 17:10:05 --> ErrorException: Undefined variable $livre
+[Method: GET, Route: livre/edit/0000000011]
+in APPPATH\Views\modifierLivre.php on line 12.
+ 1 APPPATH\Views\modifierLivre.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $livre', 'C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('modifierLivre', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('modifierLivre', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit('0000000011')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\bibliothèque\\public\\index.php')
+CRITICAL - 2024-08-31 17:10:34 --> ErrorException: Undefined variable $data
+[Method: GET, Route: livre/edit/0000000011]
+in APPPATH\Views\modifierLivre.php on line 12.
+ 1 APPPATH\Views\modifierLivre.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\bibliothèque\\app\\Views\\modifierLivre.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('modifierLivre', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('modifierLivre', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->edit('0000000011')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\bibliothèque\\public\\index.php')

@@ -1,0 +1,37 @@
+-----------------RAZAFIMAHATRATRA Ny Aina Tsilavina N°13A IGGLIA3-----------------
+
+
+-----------------CAHIER DE CHARGE------------------
+*un livre doit avoir 
+    -un titre
+    -un auteur
+    -date de création
+    -disponibilité (disponible ou non disponible)
+
+*un client a 
+    -nom
+    -livre qu'il a pris
+    -date d'emprunt du livre
+    -Adresse du client
+    -Numéro de tel du client
+
+*un Admin
+    -nom d'utilisateur
+    -mot de passe
+    
+les fonctions : 
+    -ajout , suppression d'un livre 
+    -emprunter le livre  (après le livre devient indisponible)
+    -rendre le livre (après le livre redevient disponible)
+    -suppression d'un client (après le livre redevient disponible)
+
+
+-----------------DIFFICULTE------------------
+-Manipulation du disponible et non disponible d'un livre
+-Modélisation et conception du base de données
+
+-----------------DEMARRER L'APPLICATION------------------
+!!!!!!!!!!!!!importer la base de donnée "bibliotheque.sql" d'abord!!!!!!!!!!!!!!!!!!
+
+
+
